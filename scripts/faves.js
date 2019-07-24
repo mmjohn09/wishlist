@@ -7,6 +7,7 @@ document.querySelector("#saveEntry").addEventListener("click", event => {
 
     const clearItem = document.querySelector("#wishlistItem").value = ""
     const clearLocation = document.querySelector("#location").value = ""
+    const inputFocus = document.querySelector("#wishlistItem").focus()
 
     console.log(message)
 
