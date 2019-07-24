@@ -11,6 +11,8 @@
 
 <body>
 
+
+
     <fieldset>
         <label for="wishlistItem">Wishlist Item</label>
         <input type="text" id="wishlistItem" placeholder="enter wishlist item" autofocus />
@@ -18,12 +20,15 @@
 
     <fieldset>
         <label for="location">Location</label>
-        <input type="text" id="location" placeholder="location"/>
+        <input type="text" id="location" placeholder="location" />
     </fieldset>
 
-    <button id="saveEntry">Save to Wishlist</button>
+    <button id="saveEntry" onclick="clearFields();">Save to Wishlist</button>
 
-    <article id="favoritesList"></article>
+    <div>
+        Wishlist
+        <article id="favoritesList"></article>
+    </div>
 
     <script src="scripts/faves.js"></script>
 </body>
